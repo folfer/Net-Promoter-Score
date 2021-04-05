@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
-    "test": "jest",
-    "posttest": "rd /s /q dist ./src/database/database.test.sqlite"
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
